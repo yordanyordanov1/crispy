@@ -1,0 +1,112 @@
+@font-face { 
+	font-family: Proxima Nova Soft Regular; 
+	src: url('pictures/proxima_nova_soft_regular-webfont.ttf'); 
+}
+@font-face { 
+	font-family: Proxima Nova Soft Bold; 
+	src: url('pictures/proxima_nova_soft_bold-webfont.ttf'); 
+}
+body {
+font-family: Proxima Nova Soft Bold;
+position:relative;
+}
+.container{
+	background-color: #263340;
+	margin-top:0px;
+    width:100%;
+	
+}
+.container img{
+	position:relative;
+	left:25%;
+}
+.btn{
+	background-color: #32bf99;
+	border-radius: 0px;
+	margin:0px 0px 0px;
+    border: none;
+    color: white;
+	position:relative;
+	top:0px;
+    left: 30px;
+    float:right;
+    
+    display: block;
+}
+.carousel {
+	position:relative;
+	top:40px;
+	left:25%;
+	width:50%;
+	height:50%;
+	}
+.carousel-control {
+  top:50%;
+  width:2em;
+  height:2em;
+  color:#2a83ce;
+}
+
+.head {
+position:relative;
+top:25px;
+left:25%;
+font-family: Proxima Nova Soft Bold;
+}
+.furniture {
+background-color: #e6ffff;
+height: 40px;
+width: 50%;
+position: relative;
+left: 25%;
+top: 60px;
+display: flex;
+flex-direction: row;
+}
+.available {
+background-color: #263340;
+height: 42px;
+width: 50%;
+position: relative;
+top:40px;
+left: 25%;
+color: white;
+
+}
+.available p  {
+position: relative;
+top:15%;
+left: 20px;
+font-size: 15pt;
+}
+
+.app {
+display:flex;
+flex-direction: row;
+width: 50%;
+position: relative;
+left: 37.5%;
+top: 100px;
+}
+.open{
+	
+}
+.notable_features {
+height: 42px;
+width: 50%;
+position: relative;
+top:125px;
+left: 25%;
+color: black;
+}
+.features {
+border-top: solid #e0e0e0;
+border-bottom: solid #e0e0e0;
+height: 60px;
+width: 50%;
+position: relative;
+left: 25%;
+top: 120px;
+display: flex;
+flex-direction: row;
+}
